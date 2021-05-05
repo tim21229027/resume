@@ -133,10 +133,17 @@ body {
 
 #saying {
   position: relative;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
+  transition: 1s ease;
 
 
+
+}
+
+#saying:hover {
+  text-decoration: underline;
+  font-size: 50px;
 }
 
 /* 學歷 */
@@ -152,6 +159,11 @@ body {
   height: 100%;
   border-radius: 5%;
 
+}
+
+.date {
+  color: #D0D0D0;
+  font-size: 20px;
 }
 
 .studytitle {
@@ -484,14 +496,23 @@ body {
   float: left;
   width: 40%;
   padding-left: 8%;
+  transition: 1s ease;
 
+}
+
+#photography:hover {
+  width: 45%;
 }
 
 #Taekwondo {
   float: left;
   width: 40%;
   padding-left: 3%;
+  transition: 1s ease;
+}
 
+#Taekwondo:hover {
+  width: 45%;
 }
 
 #club1 {
@@ -500,6 +521,7 @@ body {
   border: solid 10px white;
   border-radius: 20px;
   margin-left: 15%;
+
 }
 
 #club2 {
@@ -549,6 +571,7 @@ body {
   background-color: inherit;
   width: 50%;
 }
+
 
 /* The circles on the timeline */
 .container::after {
@@ -735,6 +758,7 @@ body {
   padding-top: 5%;
   background-color: gray;
 
+
 }
 
 .Licenstext {
@@ -748,7 +772,7 @@ body {
 
 .Licenstext2 {
 
-
+  color: #D0D0D0;
   font-weight: 900;
   text-align: center;
   padding-bottom: 20%;
