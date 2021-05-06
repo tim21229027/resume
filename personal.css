@@ -55,7 +55,12 @@ body {
   color: black;
   font-weight: 900;
   top: -30px;
+  transition: 2s ease;
 
+}
+
+.title:hover {
+  text-decoration: underline;
 }
 
 
@@ -65,6 +70,13 @@ body {
   font-size: 40px;
   text-align: center;
   font-weight: 900;
+  transition: 2s ease;
+
+}
+
+.text:hover {
+  font-style: italic;
+
 }
 
 /* 個人資料 */
@@ -181,6 +193,10 @@ body {
 
 
 
+}
+
+.studytitle:hover {
+  text-decoration: underline;
 }
 
 .time {
@@ -676,6 +692,10 @@ body {
   }
 }
 
+.exphoto {
+  width: 100%;
+}
+
 /* 工作經驗 */
 #work {
   border: 5px double white;
@@ -752,6 +772,7 @@ body {
 #Licens1 {
 
   transition: 1s ease;
+  text-align: center;
 }
 
 #Licens1:hover {
@@ -777,4 +798,9 @@ body {
   text-align: center;
   padding-bottom: 20%;
 
+}
+
+.Licensphoto {
+
+  width: 80%;
 }
